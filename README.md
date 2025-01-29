@@ -57,7 +57,7 @@ Try the live demo: [![Streamlit App](https://static.streamlit.io/badges/streamli
 
 ```bash
 # Clone repository
-git clone https://github.com/your-username/sms-spam-detection.git
+git clone [https://github.com/sayee027/sms-spam-detection-system.git]
 cd sms-spam-detection
 
 # Install dependencies
