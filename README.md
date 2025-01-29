@@ -50,7 +50,6 @@ An AI-powered SMS spam detection system that classifies messages as **spam** or 
 ## Demo 🚀
 Try the live demo: [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sms-spam-detection-system-tsotl4zm79sxaz7xxvrtks.streamlit.app/#analyze-message)
 ![](https://via.placeholder.com/600x400?text=Screenshot+of+Streamlit+Interface) ![Screenshot 2025-01-29 211734](https://github.com/user-attachments/assets/d2d3623e-0efc-4ad3-ba87-5af7cf46a900)
-*(Replace with actual screenshot)*
 
 ---
 
