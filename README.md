@@ -53,9 +53,77 @@ Try the live demo: [![Streamlit App](https://static.streamlit.io/badges/streamli
 
 ---
 
-## Installation & Usage 💻
+## Installation 💻
 
-### 1. Clone the Repository
 ```bash
+# Clone repository
 git clone https://github.com/your-username/sms-spam-detection.git
 cd sms-spam-detection
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Download NLTK datasets
+python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
+# 📱 SMS Spam Detection System
+
+## 🖥️ Usage
+```bash
+streamlit run app.py
+```
+
+
+## Interface Section | Description
+
+-----------------|------------
+
+**Blocked Numbers Panel** | Manage blocked numbers in real-time
+
+**Message Analysis Tab** | Input SMS text for spam detection
+
+**Model Metrics Tab** | View accuracy, precision, and confusion matrix
+
+---
+
+## 📂 Dataset  
+Uses SMS Spam Collection Dataset (+ phone number extension)  
+
+---
+
+## 🛠️ Tech Stack  
+- **Frontend:** Streamlit  
+- **ML Framework:** Scikit-learn  
+- **NLP:** NLTK, PorterStemmer  
+- **Data Handling:** Pandas, NumPy  
+- **Visualization:** Plotly  
+
+---
+
+## 🤝 Contributing  
+1. **Fork the repository**  
+2. **Create a feature branch:**  
+   ```bash
+   git checkout -b feature/new-feature
+   ```
+3. **Commit changes:**  
+   ```bash
+   git commit -m "Add awesome feature"
+   ```
+4. **Push to branch:**  
+   ```bash
+   git push origin feature/new-feature
+   ```
+5. **Open a Pull Request**  
+
+---
+
+## 📜 License  
+MIT License - See LICENSE for details  
+
+---
+
+## 🔮 Future Roadmap  
+- Multi-language support  
+- SMS API integration (Twilio/Plivo)  
+- User authentication system  
+- Spam pattern analytics dashboard  
