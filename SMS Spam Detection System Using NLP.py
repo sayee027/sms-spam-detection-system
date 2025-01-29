@@ -168,8 +168,7 @@ class SpamDetector:
 def load_data() -> pd.DataFrame:
     """Load the training data from CSV file"""
     try:
-        file_path = Path("sms-spam-updated-phone-numbers.csv")
-        df = pd.read_csv(file_path)
+        df = pd.read_csv("sms-spam-updated-phone-numbers.csv")
         st.success("Training data loaded successfully!")
         return df
     except FileNotFoundError:
