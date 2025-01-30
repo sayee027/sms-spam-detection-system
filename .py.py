@@ -214,7 +214,7 @@ def load_data() -> pd.DataFrame:
     """Load the training data from CSV file"""
     try:
         # Update the file path here
-        file_path = Path(r"C:\Users\HP\Documents\collage\internship\lectures\final\sms-spam-updated-phone-numbers.csv")
+        file_path = Path("sms-spam-updated-phone-numbers.csv")
         df = pd.read_csv(file_path)
         st.success("Training data loaded successfully!")
         return df
